@@ -1,0 +1,138 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1591968743883-decc954ccce8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.left img{
+    padding-left:12%;
+}
+.navbar img{
+    width:12%;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+.div1 h1{
+    margin-left: 10%;
+    font-size: 450%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.navbar a{
+    text-decoration:none;
+    text-justify:center;
+    font-size:larger;
+    color: black;
+    margin-left:3.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#sign{
+    color: rgb(10, 10, 10);
+    background-color: rgb(237, 177, 75);
+    padding: 0.6%;
+    margin-left:4%;
+    font-size:medium;
+    padding-left:1.5%;
+    border-color:black;
+    border-style:outset;
+    padding-right: 0.8%;
+    margin-top: 5%;
+    border-radius: 40px;
+}
+#sign i{
+    margin-top:0.5%;
+    border-radius: 100px;
+    border-width: 29%;
+    padding: 0.5%;
+}   
+#sign:hover {
+    background-color: rgb(10, 10, 10);
+    color:rgb(237, 177, 75);
+    
+} 
+h6{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    font-size: 350%;
+    font-family:'Times New Roman', Times, serif;
+}  
+.left{
+    display:flex;
+    justify-content:space-between;
+    padding:5% 15% 5% 10%;
+    margin-top:1.5%;
+    margin-right: 0.1%;
+}
+.data{
+  max-width: 400px;
+  margin: 0 auto;
+  padding:5% 15% 5% 15%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.data h3{
+    font-size: 280%;
+}
+#black,p{
+    text-align: center;
+}
+.about{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .img img{
+    width: 800px;
+}
+
+.about .tag h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about .tag p{
+    line-height: 25px;
+    font-size: large;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .tag .btn{
+    padding: 10px 20px;
+    background: #7fd8db;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}     
+#app{
+    border:1px solid black;
+    width:40%;
+    text-align: center;
+    padding-left: 40%;
+    border-radius:25px;
+    padding:0.8%;
+    background-color: black;
+    color:rgb(237, 177, 75);
+    font-size:19px;
+    margin-left:0%;
+    margin-top:10%;
+    cursor: pointer;
+}
+#app:hover{
+    background-color:rgb(237, 177, 75);
+    color: black;
+}
+#app i{
+    margin-left: 6%;
+}
