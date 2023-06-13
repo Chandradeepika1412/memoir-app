@@ -1,31 +1,31 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Sign In</title>
-  <link rel="stylesheet" href="memories_signin.css">
+<title>Login Page</title>
 </head>
+  <link rel="stylesheet" type="text/css" href="memories_signin.css">
 <body>
-  <div class="container">
-    <h2>Sign In</h2>
-    <form>
-      <div class="form-group">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-group">
-      <button onclick="myFunction()">Sign In</button>
+    <section id="box">
+        <h2>Sign In</h2>
+        <form action="memories.html">
+          <div class="form-group">
+            <input type="text" name=""placeholder="Enter Email / Mobile no." required>
+          </div>
+          <div class="form-group">
+            <input type="password" placeholder="Enter Password" required>
 
-<script>
-function myFunction() {
-  location.replace("file:///C:/Users/avani/OneDrive/Desktop/memories/memories.html")
-}
-</script>
+          </div>
+          <div class="form-group">
+            <button type="submit" onclick="signIn()">Sign In</button>
+          </div>
+        </form>
       </div>
-    </form> 
-  </div>
-</body>
+
+        <a href="memories_forgot_password.html">Forgot your password ?</a><br><br>
+        <a href="memories_create_account.html">Create an account ?</a><br><br>
+        <p> By clicking on "Login", you agree to our terms and conditions</p><br>
+        <a href="memories_terms.html">Read our terms and conditions</a><br>
+        </form>
+    </div>
+        </section>
+        </body>
 </html>
